@@ -4,5 +4,5 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/', // Добавьте имя вашего репозитория
+  base: '/door-three/', // Добавьте имя вашего репозитория
 });

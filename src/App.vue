@@ -1,11 +1,13 @@
-<script setup lang="ts">
-import ThreeScene from './ThreeScene.vue'
-</script>
-
 <template>
-  <ThreeScene msg="Vite + Vue" />
+  <ThreeScene />
 </template>
 
-<style scoped>
+<script setup lang="ts">
+  import ThreeScene from './ThreeScene.vue'
 
+</script>
+
+
+<style scoped>
+  
 </style>
