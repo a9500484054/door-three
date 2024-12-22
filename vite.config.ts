@@ -1,12 +1,8 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-// import ghPages from 'vite-plugin-gh-pages';
+// vite.config.js
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), ],
-  // plugins: [vue(), ghPages()],
-})
-
-
-
+  plugins: [vue()],
+  base: '/', // Добавьте имя вашего репозитория
+});
