@@ -83,7 +83,8 @@
   
     // Загрузка текстуры дерева
     const textureLoader = new THREE.TextureLoader();
-    const woodTexture = textureLoader.load('/textur.png');    
+    const woodTexture = textureLoader.load(`${import.meta.env.BASE_URL}textur.png`);    
+    
 
     const doorGeometry = new THREE.BoxGeometry(doorWidth.value, doorHeight.value, 0.1);
     const doorMaterial = new THREE.MeshStandardMaterial({
